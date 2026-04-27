@@ -1,0 +1,180 @@
+@media only screen and (max-width: 700px) {
+  body {
+    padding-top: 65px;
+  }
+
+  #container-mobile0 {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: var(--main-background-color);
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+  }
+
+  .mobile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    border-bottom: solid rgba(91, 91, 91, 0.649) 1px;
+    padding: 5px;
+  }
+
+  .burger-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    cursor: pointer;
+    color: var(--main-color);
+    transition: color 0.4s ease-in-out;
+    padding: 10px;
+    user-select: none;
+  }
+
+  .mobile-switch {
+    display: grid;
+    place-items: center;
+    padding: 5px;
+  }
+
+  .mobile-nav-dropdown {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-background-color);
+    transition: max-height 0.3s ease-in-out, background-color 0.4s ease-in-out,
+      color 0.4s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+  }
+
+  .mobile-nav-dropdown.active {
+    max-height: 300px;
+  }
+
+  .mobile-nav-dropdown.disable {
+    max-height: 0;
+  }
+
+  .mobile-nav-link {
+    padding: 15px 20px;
+    text-decoration: none;
+    color: gray;
+    font-family: "Courier Prime", monospace;
+    font-size: 16px;
+    border-bottom: solid rgba(91, 91, 91, 0.649) 1px;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+
+  .mobile-nav-link:hover {
+    color: var(--main-color);
+    background-color: rgba(91, 91, 91, 0.2);
+  }
+
+  #burger {
+    display: flex;
+  }
+
+  #nav {
+    display: none;
+  }
+
+  #container0 {
+    display: none;
+  }
+
+  #contact-button {
+    z-index: 1000;
+  }
+
+  #maintext {
+    font-size: 40px;
+  }
+
+  #Welcome {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #text-about-me {
+    text-align: center;
+  }
+
+  .blocks-row {
+    display: flex;
+    justify-content: center;
+  }
+
+  #hobbie-title {
+    margin-top: 50px;
+  }
+
+  .hobbie-block {
+    margin: 12.5px;
+    z-index: 0;
+  }
+
+  #container3 {
+    margin-top: 120px;
+  }
+
+  .filters-row {
+    gap: 5px;
+  }
+
+  .filter {
+    z-index: 0;
+  }
+
+  #experience-block-row {
+    margin-top: 30px;
+  }
+
+  .experience-block:hover {
+    transform: scale(1);
+  }
+
+  .experience-block {
+    margin: 10px;
+    z-index: 0;
+  }
+
+  #project-rows {
+    display: flex;
+    justify-content: center;
+  }
+
+  .project {
+    width: 345px;
+    margin: 15px;
+  }
+
+  .project h6 {
+    font-size: 20px;
+  }
+
+  #cv-location {
+    margin-top: 10px;
+  }
+
+  #location {
+    margin-left: 0px;
+  }
+
+  #work-experience-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .job-date {
+    display: none;
+  }
+
+  .Download-CV {
+    z-index: 0;
+  }
+}

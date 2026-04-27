@@ -1,0 +1,410 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hello there, this is my Portfolio Site. Here, I introduce myself and tell you about my experiences.">
+    <title>Cristian's Portfolio</title>
+    <link rel="stylesheet" href="library/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/dark & light switch/switch.css">
+    <link rel="stylesheet" href="src/styles.css">
+    <link rel="stylesheet" href="src/contact.button/contact.css">
+    <link rel="stylesheet" href="src/phone responsive.css">
+</head>
+
+<body>
+  <div class="container-fluid" id="container-mobile0">
+    <!--phone-->
+    <div class="mobile-header">
+      <div class="burger-menu" id="burger" onclick="enableDisable()">
+        &#9776;
+      </div>
+      <div class="mobile-switch" id="switchbox-mobile">
+        <label class="switch">
+          <input type="checkbox" id="input1-mobile">
+          <span class="slider round" id="text-in-switch">dark</span>
+        </label>
+      </div>
+    </div>
+    <div class="mobile-nav-dropdown disable" id="mobile-nav">
+      <a href="#container1" class="mobile-nav-link">Startseite</a>
+      <a href="#container2" class="mobile-nav-link">Über Mich</a>
+      <a href="#container3" class="mobile-nav-link">Kenntnisse</a>
+      <a href="#container4" class="mobile-nav-link">Projekte</a>
+      <a href="#container5" class="mobile-nav-link">Mein Lebenslauf</a>
+    </div>
+  </div>
+  <div class="container-fluid" id="container0">
+    <!--pc-->
+    <div class="row" id="nav">
+    <div class="col-lg-1 col-1">
+    <div>
+
+    </div>
+    </div>
+    <div class="col-lg-2 col-2 nav">
+      <a href="#container1">Startseite</a>
+    </div>
+    <div class="col-lg-2 col-2 nav">
+      <a href="#container2">Über Mich</a>
+    </div>
+    <div class="col-lg-2 col-2 nav">
+      <a href="#container3">Kenntnisse</a>
+    </div>
+    <div class="col-lg-2 col-2 nav">
+      <a href="#container4">Projekte</a>
+    </div>
+    <div class="col-lg-2 col-2 nav">
+      <a href="#container5">Mein Lebenslauf</a>
+    </div>
+    <div class="col-lg-1 col-1" id="switchbox">
+      <label class="switch">
+        <input type="checkbox" id="input1-pc">
+        <span class="slider round" id="text-in-switch">dark</span>
+      </label>
+    </div>
+  </div>
+  </div>
+  <div class="container-fluid" id="container1">
+    <div class="row" id="row1">
+      <div class="col-lg-12 col-12">
+        <img src="assets/img/Das bin ich aber Rund.JPG" alt="Ein Bild von Cristian" height="225px" id="Me">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-12">
+        <h1 id="maintext">Hallo, ich bin</br>Cristian Benedetto</br>Critti</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-12">
+        <h1 id="little-space">‾‾‾</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-12">
+        <h2 id="Welcome">Wilkommen zu meinem digitalen Portfolio</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="container2">
+    <div class="row">
+      <div class="col-lg-12 col-12">
+        <h1 id="about-me">Über Mich</h1>
+      </div>
+    </div>
+    <div class="row" id="main-about-me">
+      <div class="col-lg-3 col-12" id="text-about-me">
+        <p>Hallo, mein Name ist Cristian und ich bin im ersten Lehrjahr als Applikationsentwickler in der Firma Swisscom.
+          Ich bin sehr fasziniert von dem Beruf und strebe danach, mehr in dieser Branche zu lernen und neue Applikation
+          entwickeln zu können.
+        </p>
+      </div>
+      <div class="col-lg-4 col-12" id="blocks-about-me">
+        <div class="row blocks-row">
+          <div class="col-lg-4 col-5 block-about-me">
+            <h2>0</h2>
+            <p>Abgeschlossene<br>Projekte</p>
+          </div>
+          <div class="col-lg-4 col-5 block-about-me">
+            <h2>½</h2>
+            <p>Jahre praktische Erfahrung</p>
+          </div>
+        </div>
+        <div class="row blocks-row">
+          <div class="col-lg-4 col-5 block-about-me">
+            <ul>
+              <li>Extrovertiert</li>
+              <li>Teamfähig</li>
+              <li>Kommunikativ</li>
+              <li>Freundlich</li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-5 block-about-me">
+           <h2>100%</h2>
+           <p>Hingabe</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="hobbie-title-row">
+      <div class="col-lg-12 col-12" id="hobbie-title">
+        <h1>Hobbies</h1>
+      </div>
+    </div>
+    <div class="row" id="hobbie-row">
+      <div class="col-lg-3 col-12 hobbie-block" id="Friends">
+        <img src="assets/img/Friends.png" alt="Freunde" height="125px" width="auto">
+        <p class="hobbie-text">
+          Ich gehe sehr gerne mit Freunden raus und unternehme mit ihnen etwas.
+        </p>
+      </div>
+      <div class="col-lg-3 col-12 hobbie-block" id="Music">
+        <img src="assets/img/Music White.png" alt="Musik" height="125px" width="auto" id="Music-pic">
+        <p class="hobbie-text">
+          Ich höre mir sehr gerne Musik an. Meine lieblingsgenre ist Rap aber ich bin offen für alles.
+        </p>
+      </div>
+      <div class="col-lg-3 col-12 hobbie-block" id="Games">
+        <img src="assets/img/Controller White.png" alt="Controller" height="125px" width="auto" id="Controller-pic">
+        <p class="hobbie-text">
+          Ich spiele sehr gerne Videospiele mit Storymode, aber auch so manche competitive Spiele.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="container3">
+    <div class="row" id="experience-title">
+      <h1>Kenntnisse</h1>
+    </div>
+    <div class="filters-row">
+      <button class="filter" id="show-all">show all</button>
+      <button class="filter" id="show-frontend">frontend</button>
+      <button class="filter" id="show-backend">backend</button>
+      <button class="filter" id="show-tool">tools</button>
+      <button class="filter" id="show-library">library</button>
+      <button class="filter" id="show-framework">framework</button>
+    </div>
+    <div class="row" id="experience-block-row">
+      <div class="col-lg-2 col-5 experience-block tool">
+        <img src="assets/img/C.png" alt="C ICON" height="114px" width="auto">
+        <h2>C</h2>
+        <p>Fortgeschritten</p>
+      </div>
+      <div class="col-lg-2 col-5 experience-block frontend" id="Java-Script">
+        <img src="assets/img/JavaScript.png" alt="JAVASCRIPT ICON" height="100px" width="auto">
+          <h2>JavaScript</h2>
+          <p id="javascript-skills-text">Fortgeschritten</p>
+      </div>
+      <div class="col-lg-2 col-5 experience-block frontend" id="Type-Script">
+        <img src="assets/img/TypeScript.png" alt="TYEPSCRIPT ICON" height="100px" width="auto">
+        <h2>TypeScript</h2>
+        <p>Basics</p>
+      </div>
+      <div class="col-lg-2 col-5 experience-block backend">
+        <img src="assets/img/python.png" alt="PYTHON ICON" height="100px" width="auto">
+          <h2>Python</h2>
+          <p>Basics</p>
+      </div>
+      <div class="col-lg-2 col-5 experience-block frontend">
+        <img src="assets/img/HTML Icon.png" alt="HTML ICON" height="100px" width="auto">
+        <h2>HTML</h2>
+        <p>Fortgeschritten</p>
+      </div>
+      <div class="col-lg-2 col-5 experience-block frontend">
+        <img src="assets/img/CSS.png" alt="CSS ICON" height="125px" width="auto">
+        <h2>CSS</h2>
+        <p>Fortgeschritten</p>
+      </div>
+      <div class="col-lg-2 col-5 experience-block library">
+        <img src="assets/img/bootstrap-stack.png" alt="BOOTSTRAP ICON" height="100px" width="auto">
+          <h2>Bootstrap</h2>
+          <p>Basics</p>
+      </div>
+      <div class="col-lg-2 col-5 experience-block framework">
+        <img src="assets/img/Vue.js_logo.png" alt="VUE ICON" height="100px" width="auto">
+          <h2>Vue</h2>
+          <p>Basics - Foortgeschritten</p>
+      </div>
+      <div class="col-lg-2 col-5 experience-block framework">
+        <img src="assets/img/React.png" alt="REACT ICON" height="100px" width="auto">
+          <h2>React</h2>
+          <p>Basics</p>
+      </div>
+      <div class="col-lg-2 col-5 experience-block framework">
+        <img src="assets/img/NestJs.svg" alt="ANGULAR ICON" height="100px" width="auto">
+          <h2>NestJs</h2>
+          <p>Basics</p>
+      </div>
+      <div class="col-lg-2 col-5 experience-block tool">
+        <img src="assets/img/prisma.png" alt="ANGULAR ICON" height="100px" width="auto">
+          <h2>Prisma</h2>
+          <p>Basics</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="container4">
+    <div class="row" id="project-text">
+      <h1>Meine Projekte</h1>
+    </div>
+    <div class="row" id="project-rows">
+        <div class="col-lg-3 col-11 project" id="project1">
+            <h2>Website entwickeln</h2>
+            <div class="row project-first-row">
+              <div>Eine eigene Portfolio Website auf welcher ich mich vorstellen kann und zeige was ich für Kompetenzen habe, etc.
+              </div>
+            </div>
+            <div class="row project-last-row">
+              <div class="row project-status">
+                <div><b>status: in Bearbeitung</b></div>
+              </div>
+              <div class="row project-tag-container">
+                <div class="project-tag">HTML</div>
+                <div class="project-tag">CSS</div>
+                <div class="project-tag">JavaScript</div>
+                <div class="project-tag">Bootstrap</div>
+              </div>
+              <div class="code-and-live-demo">
+                <div class="project-git-link">
+                  <div><img src="assets/img/gitcat.png" alt="github logo" width="25px"></div>
+                  <a href="https://github.com/CristianBenedettoCritti/portfolio" target="_blank">Code</a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-11 project" id="project1">
+            <h2>c-cybersecurity-lab</h2>
+            <div class="row project-first-row">
+              <div>In diesem Projekt arbeite ich an vielen kleinen Projekten um die Programmiersprache C in der Richtung Cybersecurity zu meistern.
+              </div>
+            </div>
+            <div class="row project-last-row">
+              <div class="row project-status">
+                <div><b>status: in Bearbeitung</b></div>
+              </div>
+              <div class="row project-tag-container">
+                <div class="project-tag">C</div>
+              </div>
+              <div class="code-and-live-demo">
+                <div class="project-git-link">
+                  <div><img src="assets/img/gitcat.png" alt="github logo" width="25px"></div>
+                  <a href="https://github.com/CristianBenedettoCritti/c-cybersecurity-lab" target="_blank">Code</a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 project" id="project1">
+            <h2>Movie Watchlist</h2>
+            <div class="row project-first-row">
+              <div>Eine eigene Movie Watchlist entwickeln in der ich Filme zu einer Watchlist hinzufügen kann und diese auch favoritisieren kann.
+              </div>
+            </div>
+            <div class="row project-last-row">
+              <div class="row project-status">
+                <div>status: vollendet</div>
+              </div>
+              <div class="row project-tag-container">
+                <div class="project-tag">VUE.JS</div>
+                <div class="project-tag">NEST.JS</div>
+                <div class="project-tag">TAILWIND</div>
+                <div class="project-tag">PRISMA</div>
+                <div class="project-tag">POSTGRES</div>
+                <div class="project-tag">TYPESCRIPT</div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 project" id="project1">
+            <h2>Multitool</h2>
+            <div class="row project-first-row">
+              <div>Ein kleines selbstgemachtes Multitool mit Funktionen wie IP scannen und Port scanner und vieles mehr.
+              </div>
+            </div>
+            <div class="row project-last-row">
+              <div class="row project-status">
+                <div><b>status: In Bearbeitung</b></div>
+              </div>
+              <div class="row project-tag-container">
+                <div class="project-tag">PYTHON</div>
+              </div>
+              <div class="code-and-live-demo">
+                <div class="project-git-link">
+                  <div><img src="assets/img/gitcat.png" alt="github logo" width="25px"></div>
+                  <div><a href="https://github.com/CristianBenedettoCritti/first_MultiTool" target="_blank">Code</a></div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-3 project" id="project1">
+            <h2>Taschenrechner entwickeln</h2>
+            <div class="row project-first-row">
+              <div>Einen eigenen Taschenrechner erstellen mit dem ich +, -, *, / rechnen kann und drei zusätzliche Funktionen.
+              </div>
+            </div>
+            <div class="row project-last-row">
+              <div class="row project-status">
+                <div><b>status: vollendet</b></div>
+              </div>
+              <div class="row project-tag-container">
+                <div class="project-tag">HTML</div>
+                <div class="project-tag">CSS</div>
+                <div class="project-tag">JavaScript</div>
+              </div>
+              <div class="code-and-live-demo">
+                <div class="project-live-demo-link">
+                  <div><img src="assets/img/website.png" alt="github logo" width="25px"></div>
+                  <a href="https://cristianbenedettocritti.github.io/SImple-Calculator/" target="_blank">Live Demo</a>
+                </div>
+                <div class="project-git-link">
+                  <div><img src="assets/img/gitcat.png" alt="github logo" width="25px"></div>
+                  <div><a href="https://github.com/CristianBenedettoCritti/SImple-Calculator" target="_blank">Code</a></div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+  </div>
+  <div class="container-fluid" id="container5">
+    <div class="row" id="cv-title-row">
+      <div>
+        <h1>Mein Lebenslauf</h1>
+      </div>
+    </div>
+    <div class="row" id="cv-location">
+      <div class="col-lg-4 col-12" id="location-container">
+          <div id="location">
+            <div class="row">
+              <h2>Mein Standort</h2>
+            </div>
+            <div class="row">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5402.11019955145!2d8.505937289305157!3d47.39135779683714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900a4886815381%3A0x78b4b7222728e230!2sF%C3%B6rrlibuckstrasse%20181%2C%208005%20Z%C3%BCrich!5e0!3m2!1sde!2sch!4v1761299023019!5m2!1sde!2sch" height="375px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Standort: Zürich Förrlibuckstrasse 181"></iframe>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-7 col-11" id="work-experience-container">
+        <h2>Berufserfahrung</h2>
+        <div class="row">
+          <div class="col-lg-12 col-12 work-experience-row">
+            <div class="job-header">
+              <h3 class="job-header-title">Lernender Applikationsentwickler</h3>
+              <p class="job-date">08.2025 - heute</p>
+            </div>
+              <p>Firma: Swisscom</p>
+              <p>Ausbildung in der Entwicklung von Anwendungen und Softwarelösungen bei einem der <br>
+                führenden Telekommunikationsunternehmen der Schweiz.</p>
+          </div>
+        </div>
+        <div class="row CV-row">
+          <button class="col-lg-3 col-6 Download-CV" id="downloadButton">
+            Download CV
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="contact-container">
+    <div class="row">
+      <div class="col-lg-2 col-11" id="contact-box">
+        <h2>Kontaktiere mich!</h2>
+        <p>Geschäftsmail: cristian.critti@swisscom.com</p>
+        <p>Privatmail: critti.cristian2010@gmail.com</p>
+        <div class="linkbox">
+          <a href="https://www.linkedin.com/in/cristian-benedetto-critti-b08a52360/" target="_blank"><img src="assets/img/Linkedin.png" alt="LINKEDIN ICON" height="57.7px"></a>
+          <a href="https://github.com/CristianBenedettoCritti" id="github" target="_blank"><img src="assets/img/gitcat.png" alt="GITHUB ICON" height="57.5px"></a>
+          <a href="https://wd103.myworkday.com/swisscom/d/inst/1$37/247$16705.htmld#TABTASKID=2998%2431336" target="_blank"><img src="assets/img/myworkday.png" alt="MY WORKDAY ICON" height="57.5px" id="workday"></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-1" id="contact-button" >
+        <img src="/assets/img/blue-mail-icon.png" alt="blaues Mail Icon" height="55%">
+        <h1>Kontakt</h1>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="src/dark & light switch/switch.js"></script>
+<script src="src/contact.button/contact.js"></script>
+<script src="src/KentnisseFilter.js"></script>
+<script src="src/main.js"></script>
+</html>
